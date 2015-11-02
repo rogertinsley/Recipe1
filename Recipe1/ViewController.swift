@@ -27,7 +27,7 @@ class ViewController: UITableViewController {
     }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("customcell") as! UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("customcell", forIndexPath: indexPath) as UITableViewCell
         cell.textLabel?.text = array[indexPath.item]
         
         return cell;
