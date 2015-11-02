@@ -59,6 +59,12 @@
                     <view key="view" contentMode="scaleToFill" id="End-nF-xUi">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="honeycomb" translatesAutoresizingMaskIntoConstraints="NO" id="mnB-hl-jiO">
+                                <rect key="frame" x="0.0" y="64" width="375" height="559"/>
+                                <animations/>
+                            </imageView>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -79,6 +85,12 @@
                     <view key="view" contentMode="scaleToFill" id="d4d-KT-oKY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="strawberries" translatesAutoresizingMaskIntoConstraints="NO" id="63K-6i-WCO">
+                                <rect key="frame" x="0.0" y="64" width="375" height="559"/>
+                                <animations/>
+                            </imageView>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -108,4 +120,8 @@
             <point key="canvasLocation" x="-88" y="412"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="honeycomb" width="750" height="1334"/>
+        <image name="strawberries" width="750" height="1334"/>
+    </resources>
 </document>
